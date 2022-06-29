@@ -22,7 +22,6 @@ else:
     redMaxNum = 35
     blueMaxNum = 12
 
-
 redBallArr = []
 blueBallArr = []
 
