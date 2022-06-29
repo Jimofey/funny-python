@@ -7,16 +7,13 @@ mode = input("选择模式：\n \
     b - 非常6+1\n")
 
 # Define the red ball qty which need to pick
-str_RedBallQty = input("输入需要摇取的红球的个数:\n")
-redBallQty = int(str_RedBallQty)
+RedBallQty = int(input("输入需要摇取的红球的个数:\n"))
 
 # Define the blue ball qty which need to pick
-str_BlueBallQty = input("输入需要摇取的蓝球的个数:\n")
-blueBallQty = int(str_BlueBallQty)
+BlueBallQty = int(input("输入需要摇取的蓝球的个数:\n"))
 
 # Define the max interval time in s for random
-str_maxTime = input("输入随机间隔时, 默认为5s:\n")
-maxTime = int(str_maxTime)
+maxTime = int(input("输入随机间隔时, 默认为5s:\n"))
 
 if mode == 'a':
     redMaxNum = 33
